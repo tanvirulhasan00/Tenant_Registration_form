@@ -1,0 +1,283 @@
+@import "../../../../../Library/Fonts/Bangla.ttf";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Bangla";
+}
+img {
+  width: 100%;
+}
+ul {
+  padding-left: 3rem;
+  list-style: none;
+}
+
+/* header section */
+#header {
+  height: 11.5rem;
+  /* height: 100%; */
+}
+#header.header-container {
+  display: grid;
+  /* grid-template-columns: 150px 1fr 210px; */
+  grid-template-areas: "col1 col2 col2 col3";
+  column-gap: 10px;
+  padding: 2.5rem;
+}
+#header .header-column-1 {
+  /* background-color: red; */
+  grid-area: col1;
+  width: 150px;
+}
+#header .img-container {
+  border: 1px #333 solid;
+  border-radius: 5px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  /* background: url(../img/tanvir.jpeg) no-repeat center center/cover; */
+  object-fit: cover;
+}
+#header .header-column-2 {
+  /* background-color: blue; */
+  grid-area: col2;
+}
+#header .header-column-container {
+  display: grid;
+  grid-template-areas:
+    "col-1 col-2 col-2"
+    "col-3 col-3 col-3";
+}
+#header .hcc-col-1 {
+  grid-area: col-1;
+  /* text-align: center; */
+}
+#header .hcc-col-2 {
+  grid-area: col-2;
+  align-items: center;
+}
+#header .form-title {
+  grid-area: col-3;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+}
+#header .form-title::after {
+  content: "ভাড়াটিয়া নিবন্দন ফর্ম";
+  grid-area: col-3;
+  border-bottom: 5px #333 double;
+}
+
+#header .header-column-3 {
+  border: 1px #333 solid;
+  border-radius: 5px;
+  grid-area: col3;
+  /* width: 250px; */
+}
+#header .header-column-3 > table {
+  height: 100%;
+}
+
+#header .dmp-logo {
+  width: 60px;
+}
+
+/* body section */
+#body-section.section-container {
+  font-size: 20px;
+  padding: 2.5rem;
+  display: grid;
+  grid-template-areas:
+    "col1 col1 col1 col1"
+    "col2 col2 col2 col2"
+    "col3 col3 col4 col4"
+    "col5 col5 col5 col5"
+    "col6 col6 col6 col6"
+    "col7 col7 col7 col7"
+    "col8 col8 col9 col9"
+    "col10 col10 col11 col11"
+    "col12 col12 col12 col12"
+    "col13 col13 col13 col13"
+    "col14 col14 col14 col14"
+    "col15 col15 col16 col16"
+    "col17 col17 col18 col18"
+    "col19 col19 col19 col19"
+    "col20 col20 col20 col20"
+    "col21 col21 col22 col22"
+    "col23 col23 col24 col24"
+    "col25 col25 col25 col25"
+    "col26 col26 col27 col27"
+    "col28 col28 col29 col29"
+    "col30 col30 col30 col30"
+    "col31 col31 col32 col32"
+    "col33 col33 col33 col33"
+    "col34 col34 col34 col34"
+    "col35 col35 col36 col36"
+    "col37 col37 col37 col37"
+    "col38 col38 col38 col38";
+}
+#body-section .section-col-1 {
+  grid-area: col1;
+}
+
+#body-section .section-col-2 {
+  grid-area: col2;
+}
+#body-section .section-col-3 {
+  grid-area: col3;
+}
+#body-section .section-col-4 {
+  grid-area: col4;
+}
+#body-section .section-col-5 {
+  grid-area: col5;
+}
+#body-section .section-col-6 {
+  grid-area: col6;
+}
+#body-section .section-col-7 {
+  grid-area: col7;
+}
+#body-section .section-col-8 {
+  grid-area: col8;
+}
+#body-section .section-col-9 {
+  grid-area: col9;
+}
+#body-section .section-col-10 {
+  grid-area: col10;
+}
+#body-section .section-col-11 {
+  grid-area: col11;
+}
+#body-section .section-col-12 {
+  grid-area: col12;
+}
+#body-section .section-col-13 {
+  grid-area: col13;
+}
+#body-section .section-col-14 {
+  grid-area: col14;
+}
+#body-section .section-col-15 {
+  grid-area: col15;
+}
+#body-section .section-col-16 {
+  grid-area: col16;
+}
+#body-section .section-col-17 {
+  grid-area: col17;
+}
+#body-section .section-col-18 {
+  grid-area: col18;
+}
+#body-section .section-col-19 {
+  grid-area: col19;
+}
+#body-section .section-col-20 {
+  grid-area: col20;
+}
+#body-section .section-col-21 {
+  grid-area: col21;
+}
+#body-section .section-col-22 {
+  grid-area: col22;
+}
+#body-section .section-col-23 {
+  grid-area: col23;
+}
+#body-section .section-col-24 {
+  grid-area: col24;
+}
+#body-section .section-col-25 {
+  grid-area: col25;
+}
+#body-section .section-col-26 {
+  grid-area: col26;
+}
+#body-section .section-col-27 {
+  grid-area: col27;
+}
+#body-section .section-col-28 {
+  grid-area: col28;
+}
+#body-section .section-col-29 {
+  grid-area: col29;
+}
+#body-section .section-col-30 {
+  grid-area: col30;
+}
+#body-section .section-col-31 {
+  grid-area: col31;
+}
+#body-section .section-col-32 {
+  grid-area: col32;
+}
+#body-section .section-col-33 {
+  grid-area: col33;
+}
+#body-section .section-col-34 {
+  grid-area: col34;
+}
+#body-section .section-col-35 {
+  grid-area: col35;
+}
+#body-section .section-col-36 {
+  grid-area: col36;
+}
+#body-section .section-col-37 {
+  grid-area: col37;
+}
+#body-section .section-col-38 {
+  grid-area: col38;
+}
+
+/* media query */
+@media (max-width: 1270px) {
+  #header {
+    height: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  #header {
+    height: 25rem;
+  }
+  #header.header-container {
+    grid-template-areas:
+      "col2 col2 "
+      "col1 col3";
+    row-gap: 13px;
+  }
+  #header .header-column-2 {
+    margin: auto;
+  }
+  #header .header-column-3 {
+    width: 100%;
+  }
+  #header .header-column-3 > table {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  #header.header-container {
+    grid-template-areas:
+      "col2 "
+      "col1"
+      "col3";
+    gap: 20px;
+  }
+  #header .header-column-1 {
+    width: 150px;
+    height: 11rem;
+    margin: auto;
+  }
+  #header .header-column-3 {
+    width: 200px;
+    margin: auto;
+  }
+}
